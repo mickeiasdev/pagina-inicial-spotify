@@ -1,4 +1,5 @@
-# tela-spotify
+# TELA INICIAL SPOTIFY
+
 - Tela de Playlist | Busca do Spotify
 
 - Resposividade em breve.
