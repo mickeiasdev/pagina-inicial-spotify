@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+    letter-spacing: 0.05rem;
+}
+
+:root {
+    --lightcolor: #fff;
+    --containercolor: linear-gradient(90deg, #171717, #101010);
+    --boxcolor: #242424;
+    --searchboxcolor: #101010;
+    --backgroundcolor: #000000;
+    --textcolor: #b3b3b3;
+    --adcolor: linear-gradient(90deg, #008075, #77007d);
+    --bgsearchcontainerhover: #2a2a2a;
+    --bordersearchcontainerhover: rgba(255, 255, 255, 0.1);
+    --borderbuttoncontainerhover: rgba(255, 255, 255, 0.5);
+    --arrowshover: rgba(36, 36, 36, 0.25);
+}
+
+body {
+    background-color: var(--backgroundcolor);
+}

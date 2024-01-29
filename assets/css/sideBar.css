@@ -1,0 +1,61 @@
+.sideBar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 91px);
+    width: 300px;
+    padding: 8px;
+}
+
+.navSideBar {
+    height: 100%;
+}
+
+.sideBarTopLogo {
+    cursor: pointer;
+    width: fit-content;
+    user-select: none;
+    user-select: none;
+}
+
+.sideBarTop {
+    background: var(--containercolor);
+    border: 1px solid rgba(255, 255, 255, 0.102);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.sideBarTopList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 15px;
+}
+.sideBarTopList ul li {
+    list-style: none;
+    width: fit-content;
+}
+.home a,
+.search a {
+    text-decoration: none;
+    color: var(--textcolor);
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.home i,
+.search i {
+    font-size: 20px;
+    margin-right: 20px;
+    color: var(--textcolor);
+    transition: 0.3s;
+}
+.homeContainer:hover a,
+.homeContainer:hover i,
+.searchContainer:hover a,
+.searchContainer:hover i {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* final primeiro container */

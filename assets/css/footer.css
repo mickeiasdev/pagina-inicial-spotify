@@ -1,0 +1,32 @@
+.footerContainer {
+    position: fixed;
+    height: 68px;
+    width: calc(100vw - 16px);
+    background: var(--adcolor);
+    text-decoration: none;
+    bottom: 0;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+}
+
+.footerText {
+    color: #fff;
+}
+
+.footerButton button {
+    background-color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.footerButton button:hover {
+    transform: scale(1.05);
+}

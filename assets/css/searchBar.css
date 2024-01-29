@@ -1,0 +1,109 @@
+.searchBar {
+    width: 100%;
+    height: 70px;
+    background: #0b0b0b;
+    border: 1px solid rgba(255, 255, 255, 0.102);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.searchBarLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrowLeft,
+.arrowRight {
+    padding: 6px 9px 5px 10px;
+    border-radius: 999px;
+    border: none;
+    background-color: var(--backgroundcolor);
+    color: var(--lightcolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    background-color: var(--arrowshover);
+}
+
+.searchBarRight {
+    display: flex;
+    gap: 10px;
+}
+
+.searchBoxContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--boxcolor);
+    color: var(--textcolor);
+    padding: 2px 10px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    transition: 0.1s;
+    cursor: text;
+}
+
+.searchBoxContainer input {
+    font-size: 14px;
+    width: 300px;
+    height: 45px;
+    padding-left: 5px;
+    color: var(--textcolor);
+    background: transparent;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.searchBoxContainer:hover {
+    background-color: var(--bgsearchcontainerhover);
+    border: 1px solid var(--bordersearchcontainerhover);
+}
+.searchBoxContainer:focus-within {
+    border: 2px solid var(--lightcolor);
+}
+
+.searchBarRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchBarRight a {
+    text-decoration: none;
+    color: var(--textcolor);
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.searchBarRight a:hover {
+    color: var(--lightcolor);
+}
+
+.searchBarRight p {
+    font-size: 40px;
+    font-weight: 100;
+    color: var(--lightcolor);
+    cursor: default;
+}
+
+.searchBarRight button {
+    background-color: var(--lightcolor);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 999px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.searchBarRight button:hover {
+    transform: scale(1.05);
+}

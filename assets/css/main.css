@@ -1,0 +1,140 @@
+.mainContainer {
+    position: fixed;
+    right: 0;
+    width: calc(100% - 308px);
+    height: calc(100% - 91px);
+    margin: 10px;
+    background: var(--containercolor);
+    border-radius: 10px;
+}
+
+.playlistContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.playlistContainer::-webkit-scrollbar-thumb {
+    background-color: var(--boxcolor);
+    border: 3px solid #101010;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+
+.playlistContainer::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bgsearchcontainerhover);
+    border: 3px solid #111111;
+}
+
+.playlistContainer::-webkit-scrollbar-corner {
+    background-color: var(--containercolor);
+}
+
+.playlistContainer {
+    height: calc(100% - 71px);
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--containercolor);
+    overflow: scroll;
+}
+
+.playlistContainerBox h1 {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    color: var(--lightcolor);
+}
+
+.playlistCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 20px 0px 20px 20px;
+}
+
+.playlistCards ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.cardImg .album {
+    position: absolute;
+    z-index: 1;
+    height: 105px;
+    width: 105px;
+    border-radius: 10px;
+    bottom: -10px;
+    right: -15px;
+    rotate: 40deg;
+    transition: 0.5s;
+}
+
+.card:hover .album {
+    rotate: none;
+    width: 205px;
+    height: 205px;
+    bottom: 0;
+    right: 0;
+}
+
+.card .cardTxt {
+    position: absolute;
+    z-index: 2;
+    bottom: -25px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 205px;
+    width: 205px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    color: var(--lightcolor);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card:hover .cardTxt {
+    bottom: 0;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0));
+    opacity: 1;
+}
+
+.card .cardTitle {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    padding: 15px 0 0 15px;
+    height: 205px;
+    width: 205px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--lightcolor);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.card:hover .cardTitle {
+    opacity: 0;
+}

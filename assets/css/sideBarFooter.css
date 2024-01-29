@@ -1,0 +1,178 @@
+.sideBarBottom {
+    margin-top: 8px;
+    background: var(--containercolor);
+    border: 1px solid rgba(255, 255, 255, 0.102);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 145px);
+}
+
+.library {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    font-weight: bolder;
+}
+
+.myLibrary a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.myLibrary i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--textcolor);
+}
+.myLibrary:hover a,
+.myLibrary:hover i {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.addLibraryBtn {
+    margin-right: 10px;
+    border: none;
+    color: var(--textcolor);
+    background-color: transparent;
+}
+.addLibraryBtn i {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+.addLibraryBtn:hover {
+    transition: 0.3s;
+    background-color: var(--boxcolor);
+    color: #fff;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.barBottom {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px 10px 8px;
+    color: #fff;
+}
+
+.termLinguageContainer {
+    margin-top: auto;
+}
+
+.barBottomBox1,
+.barBottomBox2 {
+    background-color: var(--boxcolor);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bottomBoxContainer {
+    padding: 20px 30px 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--black50);
+}
+.barTitle {
+    font-weight: bold;
+    width: 100%;
+}
+.barSub {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.barBtn {
+    font-size: 14px;
+    letter-spacing: 0.025rem;
+    background-color: #fff;
+    color: #000;
+    font-weight: 900;
+    border: none;
+    border-radius: 999px;
+    width: fit-content;
+    padding: 7px 10px;
+    transition: 0.2s;
+}
+.barBtn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.barBottomFooter {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.barBottomFooter ul {
+    list-style: none;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 200px;
+}
+
+.barBottomFooter .barBottomFooterLinks li {
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.barBottomFooter .barBottomFooterCookies {
+    display: flex;
+    flex-direction: column;
+}
+
+.barBottomFooter .barBottomFooterCookies .cookies {
+    font-size: 12px;
+}
+.barBottomFooter .barBottomFooterCookies li {
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.barBottomFooter ul li a {
+    text-decoration: none;
+    color: var(--textcolor);
+    transition: 0.3s;
+}
+.barBottomFooter ul li a:hover {
+    color: #fff;
+}
+.barBottomFooter ul li:hover {
+    color: #fff;
+}
+
+.barBottomFooter ul li a img {
+    height: 9px;
+    width: 30px;
+}
+
+.barBottomLanguage {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+.barBottomLanguage .barBottomChooseLanguage {
+    padding: 7px 12px;
+    background-color: transparent;
+    border: 1px solid var(--borderbuttoncontainerhover);
+    color: #fff;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.barBottomChooseLanguage {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.barBottomChooseLanguage:hover {
+    transform: scale(1.05);
+    border-color: var(--lightcolor);
+}

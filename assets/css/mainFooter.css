@@ -1,0 +1,45 @@
+.playlistLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 50px 50px;
+}
+
+.playlistLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--lightcolor);
+}
+.playlistLinks li,
+.playlistLinks a {
+    list-style: none;
+    font-size: 18px;
+    color: var(--textcolor);
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.playlistSocial {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.playlistSocial a i {
+    font-size: 15px;
+    background-color: var(--boxcolor);
+    padding: 10px;
+    border-radius: 999px;
+    color: var(--lightcolor);
+}
+
+.spotifyCopy {
+    color: var(--textcolor);
+    margin: 0 50px;
+    font-weight: 500;
+    border-top: 1px solid var(--bordersearchcontainerhover);
+    padding: 50px 0 100px 0;
+}
