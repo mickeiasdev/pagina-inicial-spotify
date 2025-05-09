@@ -1,6 +1,6 @@
 # 🎧 Página Inicial – Spotify
 
-Este repositório contém uma página web desenvolvida como parte da avaliação da disciplina de **Programação Web com HTML5 e CSS3**. O objetivo da atividade foi criar uma reprodução da página inicial do Spotify, utilizando exclusivamente HTML5 e CSS3, aplicando os conceitos aprendidos em aula.
+Recriação da página inicial do Spotify utilizando HTML5 e CSS3, com foco em praticar estruturação de layout, responsividade e estilização visual com Flexbox.
 
 ## 📄 Descrição do Projeto
 
@@ -16,8 +16,6 @@ Este repositório contém uma página web desenvolvida como parte da avaliação
 - Estilização com CSS3
 - Boas práticas de organização de código
 
-> **EM BREVE:** *Responsividade para diferentes tamanhos de tela*
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
@@ -26,9 +24,17 @@ Este repositório contém uma página web desenvolvida como parte da avaliação
 ## 📁 Estrutura do Projeto
 
 ```bash
-├── index.html
-├── style.css
-└── README.md
+├── assets
+│   └── css
+│   │   └── style.css (geral)
+│   ├── img
+│   │   └── imagens.png (geral)
+│   └── js
+│   │   └── index.js
+│   └── playlist
+│       └── imagens_playlist.png (geral)
+└── index.html
+
 ```
 
 ## 🚀 Como Visualizar o Projeto
@@ -45,6 +51,10 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 - Aplicação de seletores e propriedades do CSS3 para estilização e layout
 - Organização e separação de responsabilidades entre HTML e CSS
 
-## 📌 Observações
+## 👨‍💻 Autor
 
-Este projeto foi desenvolvido para estudo de **HTML5 e CSS3**. Não se trata de uma página oficial do Spotify, mas sim de uma atividade acadêmica com fins educacionais.
+Desenvolvido por [Mickeias Coelho](https://github.com/mickeiasdev)
+
+Sinta-se à vontade para fazer contribuições ou melhorar o código.
+
+📌 **Observação:** Este projeto foi desenvolvido como parte de um estudo pessoal com o objetivo de praticar e aprofundar conhecimentos na área.
